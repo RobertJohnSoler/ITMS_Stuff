@@ -1,0 +1,49 @@
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     https://certifiedhacker.com
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+[2K/.history             (Status: 406) [Size: 226]
+[2K/.bash_history        (Status: 406) [Size: 226]
+[2K/.htaccess            (Status: 403) [Size: 318]
+[2K/.htpasswd            (Status: 403) [Size: 318]
+[2K/.sh_history          (Status: 406) [Size: 226]
+[2K/blog                 (Status: 301) [Size: 241] [--> https://certifiedhacker.com/blog/]
+[2K/cgi-bin              (Status: 301) [Size: 244] [--> https://certifiedhacker.com/cgi-bin/]
+[2K/cgi-bin/             (Status: 403) [Size: 318]
+[2K/cgi-sys              (Status: 301) [Size: 244] [--> https://certifiedhacker.com/cgi-sys/]
+[2K/controlpanel         (Status: 200) [Size: 33945]
+[2K/cpanel               (Status: 200) [Size: 33945]
+[2K/css                  (Status: 301) [Size: 240] [--> https://certifiedhacker.com/css/]
+[2K/docs                 (Status: 301) [Size: 241] [--> https://certifiedhacker.com/docs/]
+[2K/error_log            (Status: 403) [Size: 318]
+[2K/events               (Status: 301) [Size: 243] [--> https://certifiedhacker.com/events/]
+[2K/favicon.ico          (Status: 200) [Size: 43]
+[2K/global.asa           (Status: 406) [Size: 226]
+[2K/id_rsa               (Status: 406) [Size: 226]
+[2K/images               (Status: 301) [Size: 243] [--> https://certifiedhacker.com/images/]
+[2K/index.html           (Status: 200) [Size: 9660]
+[2K/js                   (Status: 301) [Size: 239] [--> https://certifiedhacker.com/js/]
+[2K/main.mdb             (Status: 406) [Size: 226]
+[2K/mailman              (Status: 301) [Size: 244] [--> https://certifiedhacker.com/mailman/]
+[2K/news                 (Status: 301) [Size: 241] [--> https://certifiedhacker.com/news/]
+[2K/notifications        (Status: 301) [Size: 250] [--> https://certifiedhacker.com/notifications/]
+[2K/php.ini              (Status: 403) [Size: 318]
+[2K/pipermail            (Status: 301) [Size: 246] [--> https://certifiedhacker.com/pipermail/]
+[2K/server-info          (Status: 406) [Size: 226]
+[2K/web.config           (Status: 406) [Size: 226]
+[2K/webmail              (Status: 200) [Size: 33950]
+[2K/xml                  (Status: 301) [Size: 240] [--> https://certifiedhacker.com/xml/]
+
+===============================================================
+Finished
+===============================================================
