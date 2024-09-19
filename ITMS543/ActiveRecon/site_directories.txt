@@ -12,33 +12,69 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 ===============================================================
 Starting gobuster in directory enumeration mode
 ===============================================================
-[2K/.bash_history        (Status: 406) [Size: 226]
-[2K/.history             (Status: 406) [Size: 226]
-[2K/.htaccess            (Status: 403) [Size: 318]
-[2K/.sh_history          (Status: 406) [Size: 226]
-[2K/.htpasswd            (Status: 403) [Size: 318]
-[2K/blog                 (Status: 301) [Size: 241] [--> https://certifiedhacker.com/blog/]
-[2K/cgi-bin              (Status: 301) [Size: 244] [--> https://certifiedhacker.com/cgi-bin/]
-[2K/cgi-bin/             (Status: 403) [Size: 318]
-[2K/cgi-sys              (Status: 301) [Size: 244] [--> https://certifiedhacker.com/cgi-sys/]
-[2K/controlpanel         (Status: 200) [Size: 33945]
-[2K/cpanel               (Status: 200) [Size: 33945]
-[2K/css                  (Status: 301) [Size: 240] [--> https://certifiedhacker.com/css/]
-[2K/docs                 (Status: 301) [Size: 241] [--> https://certifiedhacker.com/docs/]
-[2K/error_log            (Status: 403) [Size: 318]
-[2K/events               (Status: 301) [Size: 243] [--> https://certifiedhacker.com/events/]
-[2K/favicon.ico          (Status: 200) [Size: 43]
-[2K/global.asa           (Status: 406) [Size: 226]
-[2K/id_rsa               (Status: 406) [Size: 226]
-[2K/images               (Status: 301) [Size: 243] [--> https://certifiedhacker.com/images/]
-[2K/index.html           (Status: 200) [Size: 9660]
-[2K/js                   (Status: 301) [Size: 239] [--> https://certifiedhacker.com/js/]
-[2K/links                (Status: 500) [Size: 673]
-[2K/Linux                (Status: 500) [Size: 673]
-[2K/Links                (Status: 500) [Size: 673]
-[2K/lisence              (Status: 500) [Size: 673]
-[2K/lisense              (Status: 500) [Size: 673]
-[2K/links_submit         (Status: 500) [Size: 673]
-[2K/linktous             (Status: 500) [Size: 673]
-[2K/linkmachine          (Status: 500) [Size: 673]
-[2K/linux                (Status: 500) [Size: 673]
+
+/.bash_history        (Status: 406) [Size: 226]
+
+/.history             (Status: 406) [Size: 226]
+
+/.htaccess            (Status: 403) [Size: 318]
+
+/.htpasswd            (Status: 403) [Size: 318]
+
+/.sh_history          (Status: 406) [Size: 226]
+
+/blog                 (Status: 301) [Size: 241] [--> https://certifiedhacker.com/blog/]
+
+/cgi-bin              (Status: 301) [Size: 244] [--> https://certifiedhacker.com/cgi-bin/]
+
+/cgi-sys              (Status: 301) [Size: 244] [--> https://certifiedhacker.com/cgi-sys/]
+
+/cgi-bin/             (Status: 403) [Size: 318]
+
+/controlpanel         (Status: 200) [Size: 33945]
+
+/cpanel               (Status: 200) [Size: 33945]
+
+/css                  (Status: 301) [Size: 240] [--> https://certifiedhacker.com/css/]
+
+/docs                 (Status: 301) [Size: 241] [--> https://certifiedhacker.com/docs/]
+
+/error_log            (Status: 403) [Size: 318]
+
+/events               (Status: 301) [Size: 243] [--> https://certifiedhacker.com/events/]
+
+/favicon.ico          (Status: 200) [Size: 43]
+
+/global.asa           (Status: 406) [Size: 226]
+
+/id_rsa               (Status: 406) [Size: 226]
+
+/images               (Status: 301) [Size: 243] [--> https://certifiedhacker.com/images/]
+
+/index.html           (Status: 200) [Size: 9660]
+
+/js                   (Status: 301) [Size: 239] [--> https://certifiedhacker.com/js/]
+
+/mailman              (Status: 301) [Size: 244] [--> https://certifiedhacker.com/mailman/]
+
+/main.mdb             (Status: 406) [Size: 226]
+
+/news                 (Status: 301) [Size: 241] [--> https://certifiedhacker.com/news/]
+
+/notifications        (Status: 301) [Size: 250] [--> https://certifiedhacker.com/notifications/]
+
+/php.ini              (Status: 403) [Size: 318]
+
+/pipermail            (Status: 301) [Size: 246] [--> https://certifiedhacker.com/pipermail/]
+
+/server-info          (Status: 406) [Size: 226]
+
+/web.config           (Status: 406) [Size: 226]
+
+/webmail              (Status: 200) [Size: 33950]
+
+/xml                  (Status: 301) [Size: 240] [--> https://certifiedhacker.com/xml/]
+
+===============================================================
+Finished
+===============================================================
