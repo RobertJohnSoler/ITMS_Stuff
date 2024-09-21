@@ -1,25 +1,17 @@
 
 CPU USAGE:
- 	 Used: 21.5%
- 	 Free: 89.5%
+-e  	 Used: 3%
+-e  	 Free: 98.2%
 
 MEMORY USAGE:
- 	 2982088 bytes of 27292320 bytes used, 21563708 bytes available.
- 	 10.00% of the RAM is used.
+-e  	 1719916 bytes of 11159484 bytes used, 8588412 bytes available.
+-e  	 15.00% of the RAM is used.
 
 DISK USAGE:
          Filesystem     1K-blocks     Used Available Use% Mounted on
-         udev            13603288        0  13603288   0% /dev
-         tmpfs            2729232     1048   2728184   1% /run
-         /dev/sda1       52615560 17004428  32905932  35% /
-         tmpfs           13646160    38176  13607984   1% /dev/shm
+         udev             5537476        0   5537476   0% /dev
+         tmpfs            1115952     1060   1114892   1% /run
+         /dev/sda1       40070424 16202980  21799784  43% /
+         tmpfs            5579740    18540   5561200   1% /dev/shm
          tmpfs               5120        0      5120   0% /run/lock
-         tmpfs               1024        0      1024   0% /run/credentials/systemd-udev-load-credentials.service
-         tmpfs               1024        0      1024   0% /run/credentials/systemd-tmpfiles-setup-dev-early.service
-         tmpfs               1024        0      1024   0% /run/credentials/systemd-sysctl.service
-         tmpfs               1024        0      1024   0% /run/credentials/systemd-tmpfiles-setup-dev.service
-         tmpfs           13646160     3608  13642552   1% /tmp
-         tmpfs               1024        0      1024   0% /run/credentials/systemd-tmpfiles-setup.service
-         tmpfs               1024        0      1024   0% /run/credentials/getty@tty1.service
-         tmpfs            2729232     2552   2726680   1% /run/user/1000
-         tmpfs               1024        0      1024   0% /run/credentials/systemd-journald.service
+         tmpfs            1115948      120   1115828   1% /run/user/1000

@@ -18,7 +18,7 @@ wget https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_1
 # We'll move the downloaded zip file to /opt because this directory is where we store our optional software.
 sudo mv ghidra_11.zip /opt/
 
-cd ../../../../opt
+cd ~/../../opt  
 
 # Now we unzip and install Ghidra
 echo "Unzipping and installing Ghidra..." 
