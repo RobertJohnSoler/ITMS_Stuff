@@ -13,9 +13,9 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 Starting gobuster in directory enumeration mode
 ===============================================================
 
-/.bash_history        (Status: 406) [Size: 226]
-
 /.history             (Status: 406) [Size: 226]
+
+/.bash_history        (Status: 406) [Size: 226]
 
 /.htaccess            (Status: 403) [Size: 318]
 
@@ -27,9 +27,9 @@ Starting gobuster in directory enumeration mode
 
 /cgi-bin              (Status: 301) [Size: 244] [--> https://certifiedhacker.com/cgi-bin/]
 
-/cgi-sys              (Status: 301) [Size: 244] [--> https://certifiedhacker.com/cgi-sys/]
-
 /cgi-bin/             (Status: 403) [Size: 318]
+
+/cgi-sys              (Status: 301) [Size: 244] [--> https://certifiedhacker.com/cgi-sys/]
 
 /controlpanel         (Status: 200) [Size: 33945]
 
@@ -55,9 +55,9 @@ Starting gobuster in directory enumeration mode
 
 /js                   (Status: 301) [Size: 239] [--> https://certifiedhacker.com/js/]
 
-/mailman              (Status: 301) [Size: 244] [--> https://certifiedhacker.com/mailman/]
-
 /main.mdb             (Status: 406) [Size: 226]
+
+/mailman              (Status: 301) [Size: 244] [--> https://certifiedhacker.com/mailman/]
 
 /news                 (Status: 301) [Size: 241] [--> https://certifiedhacker.com/news/]
 

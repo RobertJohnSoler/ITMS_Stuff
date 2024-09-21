@@ -1,17 +1,23 @@
-Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-09-19 15:25 EDT
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-09-21 15:26 EDT
 Nmap scan report for certifiedhacker.com (162.241.216.11)
-Host is up (0.040s latency).
+Host is up (0.049s latency).
 rDNS record for 162.241.216.11: box5331.bluehost.com
-Not shown: 991 filtered tcp ports (no-response)
+Not shown: 985 filtered tcp ports (no-response)
 PORT     STATE SERVICE
 21/tcp   open  ftp
+22/tcp   open  ssh
+26/tcp   open  rsftp
+53/tcp   open  domain
 80/tcp   open  http
 110/tcp  open  pop3
 143/tcp  open  imap
 443/tcp  open  https
+465/tcp  open  smtps
+587/tcp  open  submission
 993/tcp  open  imaps
 995/tcp  open  pop3s
+2222/tcp open  EtherNetIP-1
 3306/tcp open  mysql
 5432/tcp open  postgresql
 
-Nmap done: 1 IP address (1 host up) scanned in 4.80 seconds
+Nmap done: 1 IP address (1 host up) scanned in 7.85 seconds
