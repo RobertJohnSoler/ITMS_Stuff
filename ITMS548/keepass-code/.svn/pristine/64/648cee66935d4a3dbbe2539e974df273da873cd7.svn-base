@@ -1,0 +1,49 @@
+In order to compile the plug-in from sources, you also need to download the
+KeePass 1.x sources that match the plug-ins base version number from the
+"Other Downloads and Resources" section at
+
+    http://keepass.info/download.html
+
+and extract the archive. Under the directory where you extracted the KeePass 1.x
+sources to, on the same level as the "Build", "Docs", "Ext" etc. directories,
+you have to create the "Plugins\OublietteImport" directory where you copy
+these files (and contained directories and files) to. The structure should then
+look something like this:
+
+    KeePass
+     |
+     +-Build
+     |
+     +-Docs
+     |
+     +-Ext
+     |
+     .
+     .
+     .
+     |
+     +-Plugins
+     |  |
+     .  +-OublietteImport
+     .     |
+     .     +-Data
+           |
+           +-Source
+
+The plug-in depends on the Crypto++ library, which get automatically pulled-in
+as an SVN external when checking out this source code. If you need to manually
+download Crypto++ for some reason, use the most recent tagged version available
+at:
+
+    http://cryptopp.svn.sourceforge.net/viewvc/cryptopp/tags/
+
+The "c5" module is what you need to checkout. Compile the static version of the
+library named "cryptlib", rename the debug version library from "cryptlib.lib"
+to "cryptlibd.lib", put it to a common directory with the release version, add
+this directory to the library paths, as well as adjusting the include paths.
+
+Now the Oubliette plug-in should find both the required KeePass 1.x and Crypto++
+files and compile fine.
+
+Sebastian Schuberth <sschuberth@gmail.com>
+2007.aug.30
